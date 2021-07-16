@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+body {
+	text-align:  center;
+}
