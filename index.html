@@ -18,147 +18,191 @@
 </head>
 <body>
 	<!-- nav bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-	  <a class="navbar-brand" href="#">Pris</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#projects">Projects</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#tools">Tools</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#contact">Contact</a>
-	      </li>
-	   	</ul>
-	  </div>
-	</nav>
+	<div class="container-fluid" id="landing">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+		  <a class="navbar-brand d-md-none" href="#">Pris</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#landing">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#projects">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#tools">Tools</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#hobbies">Hobbies</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		   	</ul>
+		  </div>
+		</nav>
 	<!-- container -->
-	<div class="container-fluid pt-4">
-	<div class="text-center mb-4">
-		<img height="150px" width="150px" src="./images/pris.jpg" class="rounded-circle my-3 mx-auto d-block" alt="Profile-Photo">
+		<div class="text-center">
+			<img class="rounded-circle my-3 mx-auto d-block" width="200" src="./images/pris.jpg"  alt="Profile-Photo">
+			<h1>Pris Manuel</h1>
+			<h3 class="mb-4">Full-Stack Web Developer</h3>
+		</div>
+		<p class="text-justify">
+			I am an aspiring full stack web developer with acquired skills in Git Version Control, HTML, CSS, Javascript, MERN, and also has experiences in deploying in Heroku, Gitlab, and Vercel. I am looking for great opportunities to further gain more skills and utilize my gained knowledge towards not only a career in Software Engineer, but also for personal growth
+		</p>
 	</div>
-	<h1 class="text-center">Pris Manuel</h1>
-	<h3 class="text-center mb-4">Full-Stack Web Developer</h3>
-
-	<p class="text-center text-justify">I am an aspiring full stack web developer with with acquired skills in Git Version Control, HTML, CSS, Javascript, MERN, and also has experiences in deploying in Heroku, Gitlab, and Vercel. I am looking for great opportunities to further gain more skills and utilize my gained knowledge towards not only a career in Software Engineer, but also for personal growth</p>
-
-	</div>
-	<h2 class="text-center" id="projects">Projects</h2>
+	<!-- Projects Section -->
+	<section id="projects">
+	<div class="container-fluid">
+		<h2 class="text-center">Projects</h2>
 		<div class="card-deck">
-		  <div class="card flex-row flex-wrap">
-		  	<div class="card-header">
-		    	<img class="card-img-top img-fluid" src="./images/Rest-API-introduction.jpg" alt="Card image cap">
-		    </div>
-		    <div class="card-block">
-		      <h5 class="card-title">Web API(Ecommerce)</h5>
-		      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		      <p class="card-text"><small class="text-muted">Client: Google</small></p>
+		  <div class="card">
+		    <img class="card-img-top img-fluid" src="./images/portfolio.png" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Developer Portfolio</h5>
+		      <p class="card-text">Created a static website portfolio. Applied front-end technologies such as HTML, CSS, Flex/Grid, design, and Bootstrap.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 2 months ago</small></p>
 		    </div>
 		  </div>
-		  <div class="card flex-row flex-wrap">
-		  	<div class="card-header">
-		    	<img class="card-img-top img-fluid" src="./images/react.jpg" alt="Card image cap">
-		    </div>
-		    <div class="card-block">
-		      <h5 class="card-title">React Frontend(Ecommerce)</h5>
-		      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		      <p class="card-text"><small class="text-muted">Client: Dropbox</small></p>
+		  <div class="card">
+		    <img class="card-img-top img-fluid" src="./images/CBA2.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Course Booking App</h5>
+		      <p class="card-text">Created a simple booking management system using HTML, CSS, Bootstrap, Javascript, ExpressJS, NodeJS, and MongoDB.</p>
+		      <p class="card-text"><small class="text-muted">Last updated 1 week ago</small></p>
 		    </div>
 		  </div>
-		 </div>
-		
-
+		  <div class="card">
+		    <img class="card-img-top img-fluid" src="./images/BAP2.jpg" alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title">Budget Tracker App</h5>
+		      <p class="card-text">Created Budget Tracker App using MERNN Stack (MongoDB, Express.js, React.js, Node.js, Next.js).</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	</section>
+		<!-- Tools Section -->
+	<section id="tools">
 		<div class="container-fluid">
-		<h2 class="text-center mt-5" id="tools">Tools</h2>
-			<div class="d-flex flex-row flex-wrap justify-content-center" >
-				<div style="width: 80px; ">
-					<img src="./images/logo-html5.png" class="img-fluid">
-				</div>
-				<div style="width: 80px; ">
-					<img src="./images/logo-css3.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-javascript.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-mongodb.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-nodejs.png" class="img-fluid">
-				</div>
-				<div   style="width: 80px; ">
-					<img src="./images/logo-expressjs.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-react.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-heroku.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-git.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-sublime-text-3.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-postman.png" class="img-fluid">
-				</div>
-				<div  style="width: 80px; ">
-					<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid">
-				</div>
-			</div>
-		</div>	
-		<div class="container-fluid">
-			<h2 class="text-center" id="projects"> Contact</h2>
+		<h2 class="text-center">Tools</h2>
 			<div class="row">
-				<div class="col-md-6 my-4">
-					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>	
+				<div class="item col-md-5">
+					<div class="item-inner">
+					<img src="./images/logo-html5.png" class="rounded" width="80">
+					<img src="./images/logo-css3.png" class="rounded" width="80">
+					<img src="./images/logo-javascript.png" class="rounded" width="80">
+					<img src="./images/logo-react.png" class="rounded" width="80">
+					</div>
+					<h3> Front-end Development</h3>
+					<p> This is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data. Using Front-end Frameworks such as React, we are able to build easier user interfaces specifically for single-page applications</p>
 				</div>
-				<div class="col-md-6 my-4">
-				<form>
-					<div class="form-group">
-						<label for="txt-fullname">Full Name:</label>
-						<input type="text" class="form-control" name="fullname" id="txt-fullname">
+				<div class="item col-md-5 offset-md-2">
+					<div class="item-inner">
+					<img src="./images/logo-mongodb.png" class="rounded" width="80">
+					<img src="./images/logo-nodejs.png" class="rounded" width="80">
+					<img src="./images/logo-expressjs.png" class="rounded" width="80">
 					</div>
-					<div class="form-group">
-						<label for="txt-email">Email</label>
-						<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
+					<h3> Back-end Development</h3>
+					<p> This refers to the server-side development. It focuses on databases, scripting, website architecture. Using MongoDB as our NoSQL language and NodeJS as our backend language, we are able to create the logic of the website </p>
+				</div>
+				<div class="col-md-6 offset-md-3">
+					<div class="item-inner">
+					<img src="./images/logo-heroku.png" class="rounded" width="80">
+					<img src="./images/logo-git.png" class="rounded" width="80">
+					<img src="./images/logo-sublime-text-3.png" class="rounded" width="80">
+					<img src="./images/logo-postman.png" class="rounded" width="80">
+					<img src="./images/logo-gitlab-ci-cd.png" class="rounded" width="80">
 					</div>
-					<div class="form-group">
-					  <label for="message">Message:</label>
-					  <textarea class="form-control" rows="5" name="message" id="txt-message"></textarea>
-					</div>
-					<button type="submit" class="btn btn-success btn-block">Send</button>
-				</form>
+					<h3> Other Development Tools</h3>
+					<p> A programming tool or software development tool is a computer program that software developers use to create, debug, maintain, or otherwise support other programs and applications.</p>
 				</div>
 			</div>
 		</div>
-	<!-- end of main content -->
-		<footer class="footer-section p-3 bg-primary mt-5" id="footer">
+	</section>
+		<!-- Carousel Section -->
+		<section  id="hobbies">
 			<div class="container-fluid">
-				<i class="social-icon fab fa-facebook-f"></i>
-			  	<i class="social-icon fab fa-twitter"></i>	
-			  	<i class="social-icon fab fa-instagram"></i>
-				<i class="social-icon fas fa-envelope"></i>
+			<h2 class="text-center">Hobbies</h2>
+				<div id="aboutme-carousel" class="carousel slide" data-ride="false">
+				  <ol class="carousel-indicators">
+				    <li data-target="#aboutme-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#aboutme-carousel" data-slide-to="1"></li>
+				    <li data-target="#aboutme-carousel" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active container hobbies">
+				      <img class="d-block img-fluid mx-auto" src="./images/nba2.jpg" alt="First slide">
+				      <div class="carousel-caption">
+				      	<h3>NBA and Basketball</h3>
+				      	<p>I watch a lot of NBA and follow a lot of my favorite teams and players. I also play IRL and in fantasy leagues</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item container hobbies">
+				      <img class="d-block img-fluid mx-auto" src="./images/dota.jpg" alt="Second slide">
+				      <div class="carousel-caption">
+				      	<h3>Dota 2</h3>
+				      	<p>I live and breathe Dota 2 as I have been playing for 10+ years already. I follow the competitive scene closely and watch a lot of tournaments</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item container hobbies">
+				      <img class="d-block img-fluid mx-auto" src="./images/anime.jpg" alt="Third slide">
+				      <div class="carousel-caption">
+				        <h3>Anime</h3>
+				      	<p>I watch a lot of anime series during my spare time when there is no NBA or I'm not playing games. Big fan of Hunter x Hunter, Steins Gate and Haikyuu!</p>
+				      </div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#aboutme-carousel" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#aboutme-carousel" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</section>
+		<!-- Contact Section -->
+		<section id="contact">
+			<div class="container-fluid">
+				<h2 class="text-center">Contact</h2>
+				<div class="row">
+					<div class="col-md-6 my-4">
+						<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Festival%20Supermall%20Alabang&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+					</div>
+					<div class="col-md-6 my-4">
+					<form>
+						<div class="form-group">
+							<label for="txt-fullname">Full Name:</label>
+							<input type="text" class="form-control" name="fullname" id="txt-fullname">
+						</div>
+						<div class="form-group">
+							<label for="txt-email">Email</label>
+							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
+						</div>
+						<div class="form-group">
+						  <label for="message">Message:</label>
+						  <textarea class="form-control" rows="5" name="message" id="txt-message"></textarea>
+						</div>
+						<button type="submit" class="btn btn-warning btn-block">Send</button>
+					</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- end of main content -->
+		<footer class="footer-section" id="footer">
+			<div class="container-fluid">
+				<a href="https://www.facebook.com/"><i class="social-icon fab fa-facebook-f"></i></a>
+			  	<a href="https://twitter.com/home"><i class="social-icon fab fa-twitter"></i></a>	
+			  	<a href="https://www.instagram.com/"><i class="social-icon fab fa-instagram"></i></a>
+				<a href="https://mail.google.com/mail/u/0/"><i class="social-icon fas fa-envelope"></i></a>
 				<p>© Copyright 2021 Pris Manuel</p>
 			</div>
 		</footer>

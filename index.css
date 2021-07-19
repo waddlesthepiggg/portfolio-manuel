@@ -1,6 +1,30 @@
 * {
+	margin: 0;
+	padding:  0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Montserrat-Bold;
+}
+body {
+	text-align: center;
+	background-color: #fff;
+}
+.container-fluid{
+  padding: 4% 10%;
+}
+#landing, #tools, #contact {
+	background-color: #1D84B5;
+	color: #fff;
+}
+.hobbies {
+	height: 600px;
+}
+.hobbies img {
+	width: 100%;
+	height: 100% !important;
+	object-fit: cover;
 }
 #gmap_canvas {
 	height: 60vh;
@@ -8,7 +32,4 @@
 }
 .social-icon {
   margin: 20px 10px;
-}
-body {
-	text-align:  center;
 }
